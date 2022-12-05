@@ -3,6 +3,7 @@ import React, { Component } from "react";
 class Counter extends Component {
   render() {
     const { onIncrement, onDelete, counter, children } = this.props;
+    console.log("Counter - Rendered");
     return (
       <div>
         {children}
